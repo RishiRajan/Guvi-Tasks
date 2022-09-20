@@ -22,6 +22,15 @@ xhr.onreadystatechange = function() {
     console.log(resultobj[i].location);
   }
 
+  console.log("-----------------------------------------------------------------------------------")
+
+  // Getting properties of objects
+  for(let i =0 ; i<resultobj.length;i++){
+    console.log(resultobj[i].id);
+    console.log(resultobj[i].image_url);
+    console.log(resultobj[i].name);
+  }
+
 }
 
 xhr.send();
