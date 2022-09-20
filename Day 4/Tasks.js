@@ -8,6 +8,7 @@ const url ="https://631ec76222cefb1edc3a4247.mockapi.io/suman";
 let xhr = new XMLHttpRequest();
 
 xhr.responseType = "json";
+xhr.open("GET", url);
 var resultobj = {};
 
 xhr.onreadystatechange = function() {
@@ -23,10 +24,10 @@ xhr.onreadystatechange = function() {
 
 }
 
-
-
-
-
-
-xhr.open("GET", url);
 xhr.send();
+
+
+
+
+
+
