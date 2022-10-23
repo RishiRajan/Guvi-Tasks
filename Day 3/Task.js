@@ -18,3 +18,15 @@ for (let key in obj) {
   let value = obj[key];
   console.log(key, value);
 }
+
+
+let resume = {
+    name: "Rishi Rajan",
+    dob: "32/13/1900",
+    degree: "B.tech ChemE",
+    cgpa: 8.69,
+    experience: 1,
+    phn: "8888888888",
+    blog:"therishirajan.blogspot.com",
+    currentdesignation: "PAT"
+}
