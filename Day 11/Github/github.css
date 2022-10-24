@@ -1,0 +1,129 @@
+body{
+    background-color: #0f1416;
+    overflow-y: hidden;
+        /* Hide vertical scrollbar */
+    overflow-x: hidden;
+        /* Hide horizontal scrollbar */
+           
+        
+}
+
+.form-control:valid {
+    background-color: #202324 ;
+    border-color: dimgrey;
+}
+
+.navbar-toggler-icon{
+    background-image: url("menu.png");
+    outline: none !important;
+    box-shadow: none !important;
+    border: 0;
+    width: 30px;
+    height: 30px;
+}
+
+
+.navbar-toggler:focus,
+.navbar-toggler:active,
+.navbar-toggler-icon:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.button:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+
+.cardone{
+    background-color: #1f2629;
+    color: azure;
+    margin-top: 2%;
+    height: 100%;
+    display: flex;
+}
+
+.createbtn{
+    margin-left: 10%;
+    background-color: rgb(21, 119, 17);
+    border-color: rgb(21, 119, 17);
+    color: white;
+    width: fit-content;
+
+}
+
+.create2{
+    background-color: rgb(21, 119, 17);
+    border-color: rgb(21, 119, 17);
+    color: white;
+    width: fit-content;
+    display: block;
+    margin-top: 15px;
+}
+.repos{
+    margin-top: 3%;
+}
+
+.card-item:hover{
+    color: wheat;
+}
+
+a:focus,
+a:hover,
+.btn:focus,
+.btn:hover {
+    text-decoration: none !important;
+}
+
+.searchbox{
+    margin-top: 3%;
+    margin-left: 0%;
+}
+.herotitle{
+    margin: 3%;
+    color: whitesmoke;
+}
+.othercards{
+    height: 18em;
+    background-color: #1f2629;
+    color: azure;
+    margin-left: 3%;
+}
+.othercards.card-title{
+    font-size: small;
+}
+.othercards.card-text{
+    font-size: x-small;
+}
+label{
+    display: block;
+}
+@media only screen and (max-width: 768px) {
+   .navmobile{
+    margin-top: 3%;
+   }
+   .notifications{
+    margin-left: 10px;
+   }
+   hr{
+    margin-top: 0%;
+    border-top: .3px solid whitesmoke;
+    margin-bottom: 0%;
+   }
+}
+
+@media only screen and (min-width: 768px) {
+   .cardone{
+    height: 92vh;
+    margin-top: 0px;
+    /* margin-left: 0%; */
+    /* padding-left: 0px; */
+    border-radius: 0px;
+    background-color: #171d1f;
+   }
+   /* .container-fluid {
+            padding-left: 0;
+            padding-right: 0;
+    } */
+}
